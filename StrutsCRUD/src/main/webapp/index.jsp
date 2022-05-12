@@ -3,10 +3,26 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Struts Project</title>
+<style>
+a:hover
+{
+	color:orange;
+}
+a:active
+{
+	color:red;	
+}
+
+</style>
 </head>
-<body>
-<a href="reg.jsp">Click Here To Register</a><br><br>
-<a href="login.jsp">Click Here To Login</a>
+<body bgcolor="lightblue">
+<h1><center>Welcome to struts program</center></h1>
+<center>
+<a href="index.jsp">Home Page</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="reg.jsp">Click here to register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="login.jsp">Click here to login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="show.jsp">Show Details</a>
+</center>
 </body>
 </html>

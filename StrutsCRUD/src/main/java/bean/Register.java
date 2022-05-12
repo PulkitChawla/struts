@@ -1,12 +1,17 @@
 package bean;
 
-public class Register {
+import org.apache.struts.action.ActionForm;
+import java.util.List;
+
+public class Register extends ActionForm{
 	
 	private String name;
 	private String email;
 	private String pwd;
 	private String cpwd;
 	private String phone;
+	private String country;
+	private String gender;
 	
 	public String getName() {
 		return name;
@@ -38,4 +43,17 @@ public class Register {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
 }

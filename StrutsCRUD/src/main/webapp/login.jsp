@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html"%>
 <%@ include file="index.jsp" %>
 <!DOCTYPE html>
 <html>
@@ -7,11 +8,16 @@
 <title>Login Page</title>
 </head>
 <body>
-<form action="LogController" method="post">
-Enter Email<input type="text" name="email"><br><br>
-Enter Password<input type="text" name="pwd"><br><br>
-<input type="submit" value="Login">
-<input type="reset" value="Reset">
-</form>
+<center>
+<h1>Login Form</h1>
+<html:form action="UserLoginAction" method="post">
+   Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <html:text property="email" />
+        <br><br><br>
+    Password : <html:password property="pwd" />
+        <br><br>
+        <html:submit value="login" />
+        <html:submit value="clear"/>
+    </html:form>
+</center>
 </body>
 </html>
