@@ -22,7 +22,7 @@ a:active
 <a href="index.jsp">Home Page</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="reg.jsp">Click here to register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="login.jsp">Click here to login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="show.jsp">Show Details</a>
+<a href="show.jsp">Show Details</a> 
 </center>
 </body>
 </html>

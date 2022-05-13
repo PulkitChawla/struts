@@ -28,15 +28,12 @@ function validate(){
 	    document.getElementById('n').innerHTML ="please enter your name";
 	    return false;
 	  }
-	  
 	  else if(email==""){
 		    document.getElementById('e').innerHTML ="please enter your email";
 		    return false;
 		  }
 	  else if(pwd==""){
-		  
 		    document.getElementById('p').innerHTML ="please enter your password";
-		   
 		    return false;
 		  }
 	  else if(cpwd==""){
@@ -47,7 +44,6 @@ function validate(){
 		  alert("Password does not match.");
 		  return false;
 	  } 
-	 
 	   if(ph==""){
 		    document.getElementById('ph').innerHTML ="please enter your contact";
 		    return false;

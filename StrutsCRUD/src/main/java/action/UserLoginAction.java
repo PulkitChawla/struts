@@ -50,7 +50,7 @@ public class UserLoginAction extends Action {
 }
 /* 
  					Control Flow of Struts Framework
-
+				----------------------------------------
 1.There is only one controller component in the Struts framework, 
    and that is the org.jakarta.struts.action.ActionServlet. 
 
@@ -109,11 +109,16 @@ public class UserLoginAction extends Action {
  */
 
 /*
- 
- 
- 
- 
- 
+ 	Explanation of web.xml
+ 	----------------------
+1. In the web.xml file, Struts defines its FilterDispatcher, the Servlet Filter class that 
+   initializes the Struts framework and handles all requests.
+  
+2. web. xml defines mappings between URL paths and the servlets that handle requests with those paths. 
+   The web server uses this configuration to identify the servlet to handle a given request and 
+   call the class method that corresponds to the request method.
+
+3. xml file when you create a deployment profile for web applications (WAR) or when running the
+   wizards to create the various web application clients such as a servlets, JSPs, or Struts components 
+   in JDeveloper. However, if you want to control the contents of the web.
  */
-
-
